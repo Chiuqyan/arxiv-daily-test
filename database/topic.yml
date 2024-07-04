@@ -1,8 +1,9 @@
 "Audio":
-  "Audio Processing and Recognization": '"Audio Processing"OR"ASR"OR"Speech Recogni"OR"Audio Codec"OR"Wave Encoder"OR"Audio Separat"OR"Audio Encoder"OR"Speech Enhancement"' 
-  "TTS": '"TTS"OR"Text-to-speech"OR"Speech Synthesis"'
-  "SVS or SVC": '"SVS"OR"SVC"OR"Singer Voice"OR"Singing Voice"'
-  "Music": '"Music Generation"OR"Music Remixing"OR"Music Orchestration"OR"Transciption"OR"Music Deremixing"OR"Melody Accompaniment"OR"Chord Progression"OR"Rhythmic-based"OR"Lyrics-Based"OR"Song"'
+  "Audio Processing and Recognization": '"Audio Processing"OR"Sound Event Detection"OR"Speech Recogni"OR"Audio Tagging"OR"Audio Quality Enhancement"OR"Audio Information Segmentation"OR"Audio Encoder"OR"Speech Enhancement"OR"ASR"OR"Speaker Verification"OR"Speaker Recognition"OR"Noise Reduction"' 
+  "Audio Understanding": '"Audio Tagging"OR"Sound Event Detection"OR"Acoustic Scene Classification"OR"Audio Captioning"OR"Audio Information Annotation"'
+  "Speech Synthesis and Conversion": '"TTS"OR"Text-to-speech"OR"Speech Synthesis"OR"Speech Generation"OR"Voice Conversion"OR"Speech Analysis"OR"Speech Enhancement"'
+  "SVS or SVC ": '"SVS"OR"SVC"OR"Singer Voice"OR"Singing Voice"'
+  "Music": '"Music Generation"OR"Music Remixing"OR"Music Orchestration"OR"Music Transciption"OR"Music Deremixing"OR"Music Segmentation"OR"Chord Progression"OR"Music Recommendation"OR"Song"OR"Music Classification"OR"automatic composition"OR"symbolic music"OR"music representations"'
   
 "Computer Vision":
   "Image Classification": '"Image Classification"'
