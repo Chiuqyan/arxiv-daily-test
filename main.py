@@ -199,9 +199,15 @@ class CoroutineSpeedup:
         ot = _OverloadTasks()
         file_obj: dict = {}
         while not self.channel.empty():
+            print(f"self.channel.empty():{self.channel.empty()}")
             # 将上下文替换成 Markdown 语法文本
             context: dict = self.channel.get()
             md_obj: dict = ot.to_markdown(context)
+            if not os.path.exists(SERVER_PATH_DOCS):
+                os.makedirs(SERVER_PATH_DOCS)
+                print(f"Directory {SERVER_PATH_DOCS} created.")
+            else:
+                print(f"Directory {SERVER_PATH_DOCS} already exists.")
 
             # 子主题分流
             if not file_obj.get(md_obj["hook"]):
@@ -241,6 +247,7 @@ class CoroutineSpeedup:
             task = gevent.spawn(self._adaptor)
             task_list.append(task)
         gevent.joinall(task_list)
+        print(f"channel:{self.channel}")
 
 
 class _OverloadTasks:
@@ -386,7 +393,7 @@ class Scaffold:
 
         # Overload tasks
         template_ = booster.overload_tasks()
-        env="production"#test
+        #env="production"#test
 
         # Replace project README file.
         if env == "production":
