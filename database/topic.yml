@@ -1,5 +1,5 @@
 "Audio":
-  "Audio Processing and Recognization": '"ASR"OR"Wave Encode"OR"Speech Recogni"OR"Audio Separat"OR"Audio Codec"OR"Audio Encode"OR"Audio Processing"' 
+  "Audio Processing and Recognization": '"ASR"OR"Audio Processing"OR"Wave Encode"OR"Audio Separat"OR"Audio Codec"OR"Audio Encoder"' 
   "Audio Understanding": '"Audio Tagging"OR"Audio Captioning"OR"Audio Annotation"OR"Music Recommendation"OR"MIR"'
   "Speech Synthesis and Conversion": '"TTS"OR"Text-to-speech"OR"Speech Synthesis"'
   "Singing Voice Synthesis and Conversion": '"SVS"OR"SVC"OR"Singer Voice"OR"Singing Voice"'
