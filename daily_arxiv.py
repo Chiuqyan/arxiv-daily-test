@@ -154,7 +154,7 @@ def json_to_md(filename, to_web=False):
             data = json.loads(content)
 
     if to_web == False:
-        md_filename = f"/database/storage/{DateNow}.md"#"README.md"
+        md_filename = "README.md"
         # clean README.md if daily already exist else create it
         with open(md_filename, "w+") as f:
             pass
