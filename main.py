@@ -10,6 +10,7 @@
 
 import json.decoder
 import os.path
+import os
 import shutil
 
 from gevent import monkey
