@@ -1,3 +1,10 @@
+"Audio":
+  "Audio Processing/Recognization": '"Audio Processing"OR"ASR"OR"Speech Recogni"OR"Audio Codec"OR"Wave Encoder"OR"Audio Separat"' 
+  "Audio Understanding": '"Automatic Speech Undersatand"OR"Audio Understanding"OR"Music Understand"'
+  "TTS": '"TTS"OR"Text-to-speech"OR"Speech Synthesis"'
+  "SVS/SVC": '"SVS"OR"SVC"OR"Singer Voice"OR"Singing Voice"'
+  "Music": '"Music Generation"OR"Music Remixing"OR"Orchestration"OR"Music Transciption"OR"Music Deremixing"OR"Music Understand"'
+  
 "Computer Vision":
   "Image Classification": '"Image Classification"'
   "Keypoint Detection": '"Keypoint Detection"OR"Feature Descriptor"'
@@ -85,3 +92,5 @@
   "Performance": '"Edge Computing"AND"Performance"OR"Edge Computing Performance"'
   "Scalability": '"Edge Computing"AND"Scalability"OR"Edge Computing Scalability"'
   "Reliability": '"Edge Computing"AND"Reliability"OR"Edge Computing Reliability"'
+
+  
