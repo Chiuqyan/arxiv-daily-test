@@ -1,9 +1,9 @@
 "Audio":
-  "Audio Processing and Recognization": '"ASR"OR"Speech Recogni"OR"Audio Quality Enhancement"OR"Audio Separat"OR"Audio Encoder"OR"Audio Enhancement"OR"Audio Processing"' 
-  "Audio Understanding": '"Audio Tagging"OR"Sound Event Detection"OR"Acoustic Scene Classification"OR"Audio Captioning"OR"Audio Annotation"'
+  "Audio Processing and Recognization": '"ASR"OR"Speech Recogni"OR"Audio Separat"OR"Audio Encoder"OR"Audio Enhancement"OR"Audio Processing"' 
+  "Audio Understanding": '"Audio Tagging"OR"Sound Event Detection"OR"Acoustic Scene Classification"OR"Audio Captioning"OR"Audio Annotation"OR"Music Recommendation"OR"Song"OR"Music Classification"'
   "Speech Synthesis and Conversion": '"TTS"OR"Text-to-speech"OR"Speech Synthesis"'
   "SVS or SVC ": '"SVS"OR"SVC"OR"Singer Voice"OR"Singing Voice"'
-  "Music": '"Music Representations"OR"Music Transciption"OR"Music Deremixing"OR"Music Segmentation"OR"Chord Progression"OR"Music Recommendation"OR"Song"OR"Music Classification"OR"Automatic Composition"OR"Music Orchestration"OR"Symbolic Music"OR"Music Generation"'
+  "Music Generation": '"Music Generation"OR"Music Representations"OR"Music Transciption"OR"Music Deremixing"OR"Music Segmentation"OR"Chord Progression"OR"Automatic Composition"OR"Music Orchestration"OR"Symbolic Music"'
   
 "Computer Vision":
   "Image Classification": '"Image Classification"'
