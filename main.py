@@ -386,6 +386,7 @@ class Scaffold:
 
         # Overload tasks
         template_ = booster.overload_tasks()
+        env="production"#test
 
         # Replace project README file.
         if env == "production":
