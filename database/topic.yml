@@ -1,8 +1,8 @@
 "Audio":
-  "Audio Processing and Recognization": '"Audio Processing"OR"ASR"OR"Speech Recogni"OR"Audio Codec"OR"Wave Encoder"OR"Audio Separat"OR"Audio Encoder"OR"Speech Enhancement"OR"Audio Event"' 
+  "Audio Processing and Recognization": '"Audio Processing"OR"ASR"OR"Speech Recogni"OR"Audio Codec"OR"Wave Encoder"OR"Audio Separat"OR"Audio Encoder"OR"Speech Enhancement"' 
   "TTS": '"TTS"OR"Text-to-speech"OR"Speech Synthesis"'
   "SVS or SVC": '"SVS"OR"SVC"OR"Singer Voice"OR"Singing Voice"'
-  "Music": '(("Music"OR"Song")OR("Auto"OR""))AND("Generation"OR"Remixing"OR"Orchestration"OR"Transciption"OR"Deremixing"OR"Accompaniment")OR"Chord Progression"OR"Rhythmic-based"OR"Lyrics-Based"'
+  "Music": '"Music Generation"OR"Music Remixing"OR"Music Orchestration"OR"Transciption"OR"Music Deremixing"OR"Melody Accompaniment"OR"Chord Progression"OR"Rhythmic-based"OR"Lyrics-Based"OR"Song"'
   
 "Computer Vision":
   "Image Classification": '"Image Classification"'
