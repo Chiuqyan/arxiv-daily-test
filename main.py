@@ -93,6 +93,7 @@ class CoroutineSpeedup:
     def _adaptor(self):
         while not self.worker.empty():
             task: dict = self.worker.get_nowait()
+            print(f"Processing task: {task}") 
             if task.get("pending"):
                 self.runtime(context=task.get("pending"))
             elif task.get("response"):
@@ -200,7 +201,6 @@ class CoroutineSpeedup:
         ot = _OverloadTasks()
         file_obj: dict = {}
         while not self.channel.empty():
-            print(f"self.channel.empty():{self.channel.empty()}")
             # 将上下文替换成 Markdown 语法文本
             context: dict = self.channel.get()
             md_obj: dict = ot.to_markdown(context)
