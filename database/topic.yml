@@ -1,7 +1,7 @@
 "NLP":
   "Large-Language Model": '"Large-Language Model"OR"LLM"OR"Large Language Model"OR"Pre-trained Language Model"OR"Pretrained Language Model"OR"Transformer based Language Model"'
   "Query Rewriting": '"query rewriting"OR"query reformulation"OR"query expansion"'
-  "Spelling Correction": '"spelling correction"OR"error correction"OR"edit distance"OR"fuzzy matching"'
+  "Spelling Correction": '"spelling correction"OR"error correction"OR"edit distance"OR"multilingual model"'
   "Compound Word Processing": '"compound word"OR"multi-word expression"OR"compound splitting"OR"compound merging"'
   "NER for Geospatial": '"named entity recognition"AND("geospatial"OR"location"OR"POI"OR"address parsing")"'
   "Entity Completion": '"entity completion"OR"partial entity recognition" OR "entity linking" OR "coreference resolution"'
